@@ -1,0 +1,92 @@
+body {
+  background-color: #192934;
+  color: white;
+  font-family: custom-font;
+}
+
+@font-face {
+  font-family: custom-font;
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+.centerText {
+  text-align: center;
+}
+
+#name {
+  margin-bottom: 0px;
+}
+
+#navBar {
+  background-color: #98a8b3;
+  margin: 0px 0px 10px 0px;
+  padding: 5px;
+}
+
+.navLink {
+  margin: 0px 2px 0px 2px;
+}
+
+a:link,
+a:visited {
+  background-color: #016ab7;
+  text-decoration: none;
+  color: white;
+  padding: 3px 7px 3px 7px;
+  border-radius: 10px;
+}
+
+a:hover,
+a:active {
+  background-color: #017ad0;
+}
+
+#portrait {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.bigText {
+  margin: 20px 50px 20px 50px;
+}
+
+#food {
+  width: 350px;
+}
+
+#lake {
+  width: 450px;
+}
+
+#dogs {
+  width: 350px;
+}
+
+.textImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 100px 20px 100px;
+}
+
+.floatingP {
+  margin: 0px 50px 0px 50px;
+}
+
+#Junkademy {
+  width: 500px;
+}
+
+.phoneScreen {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.projectTitle {
+  margin: 15px 0px 15px 0px;
+}
+
+.projectDesc {
+  margin: 0px 20px 0px 20px;
+}
